@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50;
+  }
+
+  .mobile-nav-link {
+    @apply block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50;
+  }
+}
+
+/* Custom styles for traditional Indian aesthetic */
+.traditional-heading {
+  font-family: "Arial", sans-serif;
+  color: #8b4513;
+}
+
+.traditional-border {
+  border-color: #cd853f;
+}
+
+.traditional-bg {
+  background-color: #fff8dc;
+}
+

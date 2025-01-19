@@ -46,7 +46,7 @@ export default function Navbar() {
             <Link to="/" className="flex-shrink-0">
               <img
                 className="h-12 w-auto"
-                src="../../public/jain-logo.png"
+                src="/assets/jain-logo-BuQoSvXh.png"
                 alt="Deravasi Jain Mahajan"
               />
             </Link>
